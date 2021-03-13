@@ -1,7 +1,7 @@
 require("chromedriver");
 
 let wd = require("selenium-webdriver");
-let browser = new wd.Builder().forBrowser('chrome').build();
+//let browser = new wd.Builder().forBrowser('chrome').build();
 let chrome = require("selenium-webdriver/chrome");
 let browser = new wd.Builder().forBrowser('chrome').setChromeOptions(new chrome.Options().headless()).build();
 let matchId = 33668;
